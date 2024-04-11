@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/2024_MLOPS/Projects/3_MLOpsProjectE2E/mlruns/0/350e0035e4434c5d828da803f4b8ded4/artifacts
+end_time: 1712474449984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 350e0035e4434c5d828da803f4b8ded4
+run_name: learned-shad-767
+run_uuid: 350e0035e4434c5d828da803f4b8ded4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712474449972
+status: 3
+tags: []
+user_id: sowmy

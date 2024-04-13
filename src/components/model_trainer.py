@@ -10,7 +10,6 @@ from pathlib import Path
 from src.utils.utils import save_object, evaluate_model
 from sklearn.linear_model import LinearRegression, Lasso, Ridge, ElasticNet
 from sklearn.ensemble import RandomForestRegressor
-from xgboost import XGBRegressor
 
 @dataclass
 class ModelTrainerConfig:

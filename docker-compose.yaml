@@ -3,17 +3,17 @@ services:
   airflow:
     build:
       context: ./
-      dockerfile: Dockerfile.airflow 
-    image: airflowimage 
-    container_name: gemstone-prediction-airflow 
+      dockerfile: Dockerfile.airflow
+    image: airflowimage
+    container_name: gemstone-prediction-airflow
     ports:
     - "8080:8080"
-
+    
   flaskapp:
     build:
       context: ./
-      dockerfile: Dockerfile.flask 
-    image: flaskimage 
+      dockerfile: Dockerfile.flask
+    image: flaskimage
     container_name: gemstone-prediction-flask
     ports:
     - "80:80"
